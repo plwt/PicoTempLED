@@ -8,4 +8,8 @@ So safer option is the 70C internal temp
 
 Pis tend to run 20C to 30C above room temp.
 
-So the safeest operating temperature is 40C
+So the safest operating temperature is 40C
+
+Compare room Pico against Pi internal temp
+
+Set light to blink when temperature of Pi triggers fan.
