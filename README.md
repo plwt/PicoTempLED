@@ -12,6 +12,8 @@ So the safest operating temperature is 40C
 
 Compare room Pico against Pi internal temp
 
+Pi temp = Pico temp for a scale, up the Pico temp to the figure for a Pi temp of 65.
+
 Set light to blink when temperature of Pi triggers fan.
 
 
