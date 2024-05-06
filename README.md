@@ -13,3 +13,8 @@ So the safest operating temperature is 40C
 Compare room Pico against Pi internal temp
 
 Set light to blink when temperature of Pi triggers fan.
+
+
+https://www.tomshardware.com/how-to/monitor-temperature-raspberry-pi-pico
+
+https://github.com/plwt/TempSense/blob/main/main.py
