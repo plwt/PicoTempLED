@@ -8,17 +8,17 @@ sensor_temp = machine.ADC(machine.ADC.CORE_TEMP)
 conversion_factor = 3.3 / (65535)
 
 ## Setup the onboard LED
-led_onboard = machine.Pin(25, machine.Pin.OUT)
+led = machine.Pin(25, machine.Pin.OUT)
 
 ## Setup the onboard LED for off
 def leds_off():
     """Turn off all the LEDs."""
-    led_onboard.value(0)
+    led.value(0)
 
 ## Setup the onboard LED for on
 def leds_on():
     """Turn on all the LEDs."""
-    led_onboard.value(1)
+    led.value(1)
 
 ## Read the temperature, write to file, and turn on the LED
 while True:
